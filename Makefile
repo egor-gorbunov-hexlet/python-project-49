@@ -1,3 +1,6 @@
+prompt:
+	uv add prompt
+	
 install:
 	uv sync
 
