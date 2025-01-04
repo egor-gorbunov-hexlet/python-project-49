@@ -1,3 +1,6 @@
+make lint:
+    uv run ruff check brain_games
+    
 prompt:
 	uv add prompt
 	
