@@ -8,3 +8,6 @@
 [![How to run game "Brain Calc"](https://asciinema.org/a/700212)](https://asciinema.org/a/700212)
 [![How to win game "Brain Calc"](https://asciinema.org/a/700513)](https://asciinema.org/a/700513)
 [![How to lose game "Brain Calc"](https://asciinema.org/a/700515)](https://asciinema.org/a/700515)
+[![How to run and win in the game "Brain GCD"](https://asciinema.org/a/700550)](https://asciinema.org/a/700550)
+[![How to loose in the game "Brain GCD"](https://asciinema.org/a/700553)](https://asciinema.org/a/700553)
+
