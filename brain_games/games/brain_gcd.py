@@ -11,8 +11,8 @@ from brain_games.scripts.brain_games import greet
 
 
 def brain_gcd():
-    print('Find the greatest common divisor of given numbers.')
     name = welcome_user('name')
+    print('Find the greatest common divisor of given numbers.')
     
     for i in range(0, 3):
         x = a()
@@ -24,7 +24,7 @@ def brain_gcd():
 
         for j in range(z, 0, -1):
             if x % j == 0 and y % j == 0:
-                #print(j)
+                # print(j)
                 result = j
                 break
             j = j - 1

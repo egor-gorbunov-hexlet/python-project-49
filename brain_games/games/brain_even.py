@@ -5,8 +5,8 @@ from brain_games.scripts.brain_games import greet
 
 
 def brain_even():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     name = welcome_user('name')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     for i in range(0, 3):
         x = a()
         print(f'Question: {x}')

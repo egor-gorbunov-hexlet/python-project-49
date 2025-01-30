@@ -13,8 +13,8 @@ from brain_games.scripts.brain_games import greet
 
 
 def brain_calc():
-    print('What is the result of the expression?')
     name = welcome_user('name')
+    print('What is the result of the expression?')
     for i in range(0, 3):
         rand_expression = random.choice(['+', '-', '*'])
         x = a()
