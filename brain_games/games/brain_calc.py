@@ -1,0 +1,41 @@
+import random
+
+from brain_games.cli import welcome_user
+from brain_games.games.engine import (
+    a,
+    answer,
+    b,
+    congratulations,
+    correct,
+    wrong,
+)
+from brain_games.scripts.brain_games import greet
+
+
+def brain_calc():
+    print('What is the result of the expression?')
+    name = welcome_user('name')
+    for i in range(0, 3):
+        rand_expression = random.choice(['+', '-', '*'])
+        x = a()
+        y = b()
+        result = eval(f'{x} {rand_expression} {y}')
+        print(f'Question: {x} {rand_expression} {y}')
+        
+        otvet = answer()
+        if str(result) == otvet:
+            correct()
+        else:
+            wrong(otvet, result, name)
+            break
+        if i == 2:
+            congratulations(name)
+
+
+def main():
+    greet()
+    brain_calc()
+
+
+if __name__ == "__main__":
+    main()
