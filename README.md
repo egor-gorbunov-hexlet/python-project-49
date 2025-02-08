@@ -11,3 +11,5 @@
 [![How to run and win in the game "Brain GCD"](https://asciinema.org/a/700550)](https://asciinema.org/a/700550)
 [![How to loose in the game "Brain GCD"](https://asciinema.org/a/700553)](https://asciinema.org/a/700553)
 [![How to start, win, loose in the game "Brain Progression"](https://asciinema.org/a/700586)](https://asciinema.org/a/700586)
+[![How to start and win in the game "Brain Prime"](https://asciinema.org/a/702285)](https://asciinema.org/a/702285)
+[![How to start and loose in the game "Brain Prime"](https://asciinema.org/a/702286)](https://asciinema.org/a/702286)
